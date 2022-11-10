@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+French+Canon&family=Lato:ital,wght@0,400;0,700;1,400&display=swap');
+
+body {
+    background-color: #ffff;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    font-family: Helvetica, sans-serif;
+}
+
+h1, h2, h4 {
+    font-family: Arial;
+}
+
+h2 {
+    margin: 0;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 150px auto;
+    background-color: #151f45;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}   
+
+nav a:hover {
+    background-color: #ffe11b;
+    color: #151f45;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover {
+    color: #ffe11b;
+}
+
+footer p {
+    font-size: 1.2em;
+} 
+
+footer p a:hover {
+    text-decoration: underline;
+}
+
+h4 {
+    color: white;
+}
+
+footer {
+    background-color: #151f45;
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.social a img {
+    width: 100px;
+    height: 100px;
+    border-radius: 5%;
+}
+
+div {
+    max-width: 1600px;
+}
+
+#content {
+    margin: 0 auto;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 35px;
+}
+
+.logo {
+    width: 80px;
+    border-radius: 50%;
+}
+
+#logo_link {
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+} 
+
+.icon {
+    width: 80px;
+    padding-top: 10px;
+}
+
+footer {
+    margin-top: 25px;
+}
+
+#hero {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(3, 400px);
+    grid-gap: 75px;
+    margin: 75px 75px 75px 75px;
+}
+
+#faq {
+    margin: 50px;
+    text-align: center;
+    color: #151f45;
+}
+
+.kids-paragraph,.safe-paragraph,.trip-paragraph{
+    display: grid;
+    text-align: justify;
+    margin: 25px auto;
+    border-radius: 10px;
+    align-items: center;
+}
+
+.trip-paragraph p {
+    margin-top: -50px;
+}
+
+#hero img:hover {
+    opacity: .6;
+    transform: scale(1.1);
+    border-radius: 10px;
+}
+
+#hero img {
+    width: 100%;
+    height: 100%;
+    transition: transform .5s;
+    border-radius: 10px;
+}
