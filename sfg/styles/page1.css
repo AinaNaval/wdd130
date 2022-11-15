@@ -1,0 +1,153 @@
+
+@import url('https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC|Lato');
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2 {
+    font-family: "IM Fell French Canon SC";
+}
+
+p {
+    font-family: Helvetica;
+}
+
+a {
+    font-size: 18px;
+}
+
+/*Header*/
+
+header {
+    display: grid;
+    grid-template-columns: 140px auto;
+    background: #c0de00;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    background: #c0de00;
+}   
+
+nav a:hover {
+    background-color: #010e1d;
+    color: white;
+    transition: .3s;
+}
+
+nav a {
+    color: #010e1d;
+    text-decoration: none;
+    text-align: center;
+    padding: 50px;
+}
+
+
+.logo {
+    width: 100px;
+    border-radius: 50%;
+}
+
+#logo_link {
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+} 
+
+#front-img {
+    width: 100%;
+    height: 100%;
+}
+
+#front {
+    display: grid;
+}
+
+#front h1 {
+    margin: 25% 35%;
+    font-size: 40px;
+    text-align: center;
+    color: white;
+    position: absolute;
+}
+
+/*Main*/
+
+.main-img {
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 100px;
+}
+
+#images {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 50px;
+}
+
+#PUBG-img, #free-fire-img {
+    width: 100%;
+    height: 100%;
+}
+
+#android-games-content {
+    padding-top: 50px;
+    width: 75%;
+    height: 400px;
+    margin: 0px auto;
+    text-align: justify;
+}
+
+#android-games-content h2 {
+    text-align: center;
+    font-size: 35px;
+    color: #010e1d;
+}
+
+#android-games-content p {
+    font-size: 18px;
+    margin: 50px;
+}
+
+/*Footer*/
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover {
+    color: #010e1d;
+}
+
+footer p {
+    font-size: 1.2em;
+} 
+
+footer p a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #c0de00;
+    padding: 19px 40px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer {
+    margin-top: 25px;
+}
+
+.social a img {
+    width: 100px;
+    height: 100px;
+    border-radius: 5%;
+}
+
